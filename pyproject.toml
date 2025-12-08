@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-profile-switcher"
+version = "0.1.0"
+description = "Simple Git identity switcher for managing multiple Git profiles (personal, work, etc.)"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["git", "profile", "identity", "developer"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS :: MacOS X"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/git-profile-switcher"
+Issues = "https://github.com/yourname/git-profile-switcher/issues"
+
+[project.scripts]
+git-profile = "git_profile_switcher.cli:main"
+git-profile-gui = "git_profile_switcher.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
