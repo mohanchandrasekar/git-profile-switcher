@@ -38,7 +38,7 @@ Ideal for developers, consultants, students, open-source contributors, and anyon
 ### **Install from source (recommended during development)**
 
 ```bash
-git clone https://github.com/<yourusername>/git-profile-switcher.git
+git clone https://github.com/mohanchandrasekar/git-profile-switcher.git
 cd git-profile-switcher
 
 python3 -m venv .venv
