@@ -1,9 +1,3 @@
-Absolutely — here is a **polished, professional, public-ready GitHub README.md** for your `git-profile-switcher` project.
-
-This is formatted to look like a premium open-source tool, with clean sections, badges, examples, screenshots placeholders, and clear setup instructions.
-
----
-
 # 🚀 git-profile-switcher
 
 ### Manage multiple Git identities (work / personal) with one simple command.
